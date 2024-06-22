@@ -12,7 +12,7 @@ Lib_SC is a C# library that provides implementations for various encryption and 
   - [Monoalphabetic Cipher](#monoalphabetic-cipher)
   - [Playfair Cipher](#playfair-cipher)
   - [Polyalphabetic Cipher](#polyalphabetic-cipher)
-
+- [Usage](#usage)
 ---
 
 ## Features
@@ -44,7 +44,7 @@ namespace Lib_SC
     }
 }
  ```
-###Monoalphabetic Cipher
+### Monoalphabetic Cipher
 ```csharp
 namespace Lib_SC
 {
@@ -62,7 +62,7 @@ namespace Lib_SC
 }
  ```
 
-###Playfair Cipher
+### Playfair Cipher
 ```csharp
 namespace Lib_SC
 {
@@ -81,7 +81,7 @@ namespace Lib_SC
 
  ```
 
-###Polyalphabetic Cipherr
+### Polyalphabetic Cipherr
 ```csharp
 namespace Lib_SC
 {
@@ -99,7 +99,7 @@ namespace Lib_SC
 
  ```
 
-###PUsage
+### Usage
 ```csharp
 using Lib_SC;
 using System;

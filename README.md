@@ -12,10 +12,6 @@ Lib_SC is a C# library that provides implementations for various encryption and 
   - [Monoalphabetic Cipher](#monoalphabetic-cipher)
   - [Playfair Cipher](#playfair-cipher)
   - [Polyalphabetic Cipher](#polyalphabetic-cipher)
-- [Usage](#usage)
-- [Installation](#installation)
-- [Contributing](#contributing)
-- [License](#license)
 
 ---
 
@@ -45,5 +41,22 @@ namespace Lib_SC
         /// <param name="enc">True for encryption, False for decryption.</param>
         /// <returns>The encrypted or decrypted string.</returns>
         public static string MainCaesar(string encryption, int key, bool enc);
+    }
+}
+
+###Monoalphabetic Cipher
+```csharp
+namespace Lib_SC
+{
+    public class Monoalphabetic
+    {
+        /// <summary>
+        /// Encrypts or decrypts a given string using a specified key.
+        /// </summary>
+        /// <param name="oldText">The string to encrypt or decrypt.</param>
+        /// <param name="key">The encryption or decryption key.</param>
+        /// <param name="encrypt">True for encryption, False for decryption.</param>
+        /// <returns>The encrypted or decrypted string.</returns>
+        public static string MainFunctionMonoalphabetic(string oldText, string key, bool encrypt);
     }
 }
